@@ -1,0 +1,22 @@
+.main_div
+{
+    margin: 50px;
+    background-color: bisque;
+    padding: 20px;
+
+}
+
+.table
+{
+    margin: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.image
+{
+ margin: 20px;
+ width: 200px;
+ height: 200px;
+
+}

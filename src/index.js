@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import ButtonComponent from './ButtonComponent';
+import TableComponent from './TableComponent';
+import ImageComponent from './ImageComponent';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ButtonComponent />
+    <TableComponent />
+    <ImageComponent />
   </React.StrictMode>,
   document.getElementById('root')
 );
